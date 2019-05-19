@@ -1,0 +1,167 @@
+@import "base.css";
+header{
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.88rem;
+    color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow:0 2px 15px rgba(78,187,254,0.2) ;
+
+}
+body{
+    background: white;
+}
+section{
+    width: 100%;
+    height:12.06rem;
+    display: none;
+}
+.none{
+    width: 100%;
+    height: 100%;
+}
+.none > img {
+    margin: 3.17rem  2.08rem auto 2rem;
+    width: 3.38rem;
+    height: 2.06rem;
+}
+.alarm{
+    margin-top: 0.52rem;
+    text-align: center;
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.4;
+}
+.go{
+    margin-left: 2.7rem;
+    margin-top: 0.52rem;
+    width: 2rem;
+    height: 0.65rem;
+}
+.go img{
+    width: 100%;
+    height: 100%;
+}
+.list{
+    margin-top: 0.5rem;
+    height: 10.98rem;
+}
+.goods .item{
+    margin-top: 0.3rem;
+    display: flex;
+    width: 100%;
+    height: 1.74rem;
+    padding-bottom: 0.3rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.point{
+    margin-top: 0.75rem;
+    margin-right: 0.24rem;
+    margin-left: 0.29rem;
+    width: 0.24rem;
+    height: 0.24rem;
+    border-radius: 50%;
+    background-color: #e7f6ff;
+}
+.goodsImg{
+    width: 1.74rem;
+    height: 1.74rem;
+    background: #4ebbfe;
+}
+.item > a{
+    display: flex;
+    margin-right: 1.07rem;
+}
+.goodsInfo{
+    margin-left: 0.24rem;
+}
+.goodsInfo .name{
+    margin-top: 0.45rem;
+    font-size: 0.3rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.6;
+}
+.goodsInfo .price{
+    margin-top: 0.3rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #8e9397;
+    opacity: 0.8;
+}
+.total{
+    display: flex;
+    height: 0.34rem;
+    margin-top: 0.45rem;
+}
+.total img{
+    width: 0.34rem;
+    height: 0.34rem;
+}
+.total .add {
+    width: 0.364rem;
+}
+.total .px{
+    width: 0.34rem;
+    overflow: hidden;
+}
+.total > span{
+    margin: 0 0.1rem;
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #36a8fe;
+}
+footer{
+    padding: 0 .22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1.08rem;
+    background:#f1faff;
+    position: fixed;
+    bottom: 0;
+}
+.sum{
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.sum span{
+    font-size: 0.36rem;
+    font-weight: normal;
+    color: #36a8fe;
+}
+.others{
+    margin-top: 0.05rem;
+    font-size: 0.2rem;
+    font-weight: normal;
+    color: #3bacfe;
+    opacity: 0.6;
+}
+.right{
+    width: 3.8rem;
+    height: 1rem;
+}
+footer .point{
+    display: flex;
+    position: absolute;
+    bottom: 1.4rem;
+}
+footer > span{
+    position: absolute;
+    bottom: 1.5rem;
+    left:1rem;
+    width: 0.49rem;
+    height: 0.23rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #3bacfe;
+}
+.green{
+    background: #00bf00;
+}

@@ -1,0 +1,284 @@
+body{
+    background: white;
+    padding: 0 0.1rem 0;
+    box-sizing: border-box;
+}
+header{
+    height: 0.88rem;
+    text-align: center;
+    line-height: 0.88rem;
+    font-size: 0.38rem;
+    color: #4ebbfe;
+}
+.goods {
+    width:96%;
+    padding: 0 0.22rem;
+    height: auto;
+}
+.thumb {
+    height: 6.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thumb > img{
+    width: 3rem;
+    height: 3.6rem;
+}
+.goods > h1{
+    font-size: 0.28rem;
+    color: #000000;
+    opacity: 0.6;
+}
+.goods > p.desc {
+    font-size: 0.22rem;
+    color: rgba(0,0,0,0.3);
+    line-height: 1.5;
+    height: 0.66rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp:2;
+    overflow: hidden;
+}
+.info .price {
+    font-size: 0.26rem;
+    color: #fbb548;
+}
+.info {
+    position: relative;
+    font-size: 0.2rem;
+    padding: 0.18rem 0;
+    border-bottom: 0.01rem solid #d8dfe3;
+}
+.info .total {
+    color: rgba(0,0,0,0.3);
+    line-height: 1.5;
+    position: absolute;
+    bottom: 0.1rem;
+    right: 0;
+}
+.total::before {
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50rem;
+    display: inline-block;
+    background-color: #36d681;
+    position: absolute;
+    top: 0.13rem;
+    left: -0.1rem;
+}
+.info > span {
+    margin-right: 0.2rem;
+}
+.info > span:first-child{
+    font-size: 0.26rem;
+
+}
+.info > span:nth-child(2){
+    color: #41b2fc;
+    background: rgba(65,178,252,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+}
+
+.info > span:nth-child(3){
+     color: #009966;
+    background: rgba(65,178,252,0.1);
+    padding: 0.08rem 0.2rem;
+    border-radius: 0.22rem;
+    margin-right: 0.3rem;
+ }
+.info.total {
+    float: right;
+    overflow: hidden;
+}
+.discount {
+    overflow: hidden;
+}
+.discount div img {
+   margin-top: 0.15rem;
+    width: 0.49rem;
+    height: 0.23rem;
+    float: left;
+}
+.discount .get{
+    margin-top:0.04rem ;
+    margin-left: 0.04rem;
+    float: left;
+    width: 0.5rem;
+    height: 0.24rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 0.4rem;
+    color: #ff844e;
+}
+.info .total > p{
+    margin-left: 0.1rem;
+    float: right;
+    color: #36a8fe;
+}
+.discount .less{
+    margin-left: 0.1rem;
+    float: left;
+    padding: 0.08rem 0.2rem;
+    background-color: #009966;
+    border-radius: 0.22rem;
+    /*background-image:url("../image/ ") ;*/
+    background-image: linear-gradient(-90deg,#ffca3b 70%,#ff933b );
+}
+.prompt{
+    width: 88%;
+    height: 0.76rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+    display: flex;
+    align-items:center;
+}
+.prompt ul{
+    width: 100%;
+    height: 0.76rem;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.prompt ul li{
+    margin-left: 0.2rem;
+    font-size: 0.24rem;
+    font-weight: normal;
+    color: #41b2fc;
+    position: relative;
+}
+.prompt ul li::before {
+    content: '';
+    width: 0.05rem;
+    height: 0.05rem;
+    border-radius: 50rem;
+    display: inline-block;
+    background-color: #36d681;
+    position: absolute;
+    top: 0.15rem;
+    left:-0.1rem;
+}
+h1.title {
+    padding: 0.4rem 0.22rem ;
+    font-size: 0.32rem;
+    color: #41b2fc;
+}
+h1.title b {
+    color: #4f5b64;
+}
+h1.title > a {
+    font-size: 0.22rem;
+    float: right;
+    color: #41b2fc;
+}
+h1.title > a > i:last-child{
+   opacity: 0.5;
+}
+.comment{
+    height: auto;
+    padding: 0 0.22rem ;
+}
+.comment .commentItem{
+    height: 1.97rem;
+    border-bottom: 0.01rem solid #d8dfe3;
+    position: relative;
+}
+.commentItem .avatar{
+    width: 0.86rem;
+    height: 0.86rem;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.commentInfo{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin-left: 0.86rem;
+    background: #cc8548;
+    padding-top: 0.3rem;
+}
+.infoTop{
+    font-size: 0.2rem;
+    color: #4ebbfe;
+    overflow: hidden;
+}
+.infoTop.date {
+    float: right;
+}
+.infoTop .username {
+    float: left;
+    padding-right: 0.4rem;
+}
+.infoTop .star {
+    float: left;
+    position: relative;
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.infoTop .star > div{
+    width: 1.28rem;
+    height: 0.22rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+.infoTop .star > [src]{
+    width: 1.28rem;
+    height: 0.22rem;
+}
+.commentCon {
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.6;
+}
+.goodsDetail{
+      border-bottom: 0.01rem solid #d8dfe3;
+}
+.similar{
+    width: 100%;
+    min-height: 3rem;
+}
+.similar > .title{
+    padding: 0.4rem 0.22rem 0;
+}
+.simGoods{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+.simGoods li{
+        width: 2.25rem;
+        min-height:3.12rem ;
+}
+.simImg{
+    margin:0.69rem auto 0.37rem;
+    width: 1.31rem;
+    height: 1.37rem;
+    background: #cc8548;
+}
+.simName{
+    font-size: 0.26rem;
+    font-weight: normal;
+    color: #000000;
+    opacity: 0.6;
+}
+.simPrice{
+    margin-top: 0.19rem;
+    font-size: 0.28rem;
+    font-weight: normal;
+    color: #fbb548;
+}
+footer {
+    box-sizing: border-box;
+    padding: 0 0.75rem 0 0.45rem;
+    width: 107%;
+    height: 1.08rem;
+    background-color: #f1faff;
+}
