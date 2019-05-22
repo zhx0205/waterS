@@ -1,14 +1,19 @@
 body{
     background: white;
-    padding: 0 0.1rem 0;
-    box-sizing: border-box;
 }
 header{
-    height: 0.88rem;
-    text-align: center;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
     line-height: 0.88rem;
-    font-size: 0.38rem;
     color: #4ebbfe;
+    font-size: 0.38rem;
+    box-shadow: 0 2px 15px rgba(78,187,254,0.2);
+}
+header .iconfont {
+    color: #4ebbfe;
+    font-size: 0.44rem;
 }
 .goods {
     width:96%;
@@ -130,7 +135,7 @@ header{
     background-image: linear-gradient(-90deg,#ffca3b 70%,#ff933b );
 }
 .prompt{
-    width: 88%;
+    width: 100%;
     height: 0.76rem;
     border-bottom: 0.01rem solid #d8dfe3;
     display: flex;
@@ -182,6 +187,7 @@ h1.title > a > i:last-child{
     padding: 0 0.22rem ;
 }
 .comment .commentItem{
+    margin-top: 0.2rem;
     height: 1.97rem;
     border-bottom: 0.01rem solid #d8dfe3;
     position: relative;
@@ -199,7 +205,6 @@ h1.title > a > i:last-child{
     right: 0;
     left: 0;
     margin-left: 0.86rem;
-    background: #cc8548;
     padding-top: 0.3rem;
 }
 .infoTop{
@@ -210,7 +215,13 @@ h1.title > a > i:last-child{
 .infoTop.date {
     float: right;
 }
+.date{
+    color: #9ed5ff;
+    margin-left: 2rem;
+}
 .infoTop .username {
+    margin-left: 0.1rem;
+    color: #cfcfcf;
     float: left;
     padding-right: 0.4rem;
 }
@@ -239,9 +250,15 @@ h1.title > a > i:last-child{
     opacity: 0.6;
 }
 .goodsDetail{
-      border-bottom: 0.01rem solid #d8dfe3;
+    padding: 0.1rem;
+    box-sizing: border-box;
+}
+.goodsDetail .title{
+    border-bottom: 0.01rem solid #d8dfe3;
 }
 .similar{
+    padding: 0 0.1rem;
+    box-sizing: border-box;
     width: 100%;
     min-height: 3rem;
 }
@@ -281,4 +298,30 @@ footer {
     width: 107%;
     height: 1.08rem;
     background-color: #f1faff;
+}
+
+footer > ul{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+}
+.p1{
+    width: 0.9rem;
+    height: 100%;
+}
+.p2{
+    margin-top: 0.1rem;
+    width: 0.9rem;
+    height: 95%;
+}
+.p4{
+    margin-top: 0.3rem;
+    width: 1.70rem;
+    height: 0.55rem;
+}
+.p3{
+    margin-top: 0.3rem;
+    width: 1.69rem;
+    height: 0.55rem;
 }

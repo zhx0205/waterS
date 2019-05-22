@@ -1,13 +1,16 @@
 @import "base.css";
 body {
     background: #f6f6f6;
+    background: #FFFFFF;
 }
 header{
-    height: 0.88rem;
-    text-align: center;
+    padding: 0 0.22rem;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
     line-height: 0.88rem;
-    font-size: 0.38rem;
     color: #4ebbfe;
+    font-size: 0.38rem;
 }
 .search{
     padding: 0.17rem 0.22rem;
@@ -29,7 +32,6 @@ header{
 .banner {
     width: 100%;
     height:3rem ;
-    background: #cc8548;
 }
 .category{
     padding: 0.22rem;
