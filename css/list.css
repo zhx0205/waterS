@@ -37,7 +37,6 @@ header .iconfont {
 }
 .list{
     width: 100%;
-    position: absolute;
     top: 2rem;
     bottom: 0;
     padding: 0 0.22rem;

@@ -1,7 +1,7 @@
 @import "base.css";
 body {
-    background: #f6f6f6;
     background: #FFFFFF;
+
 }
 header{
     padding: 0 0.22rem;
@@ -17,7 +17,7 @@ header{
     height: 0.6rem;
     line-height: 0.6rem;
 }
-.search span{
+.search span > a{
     float: left;
     color: #4ebbfe;
     font-size:0.28rem;

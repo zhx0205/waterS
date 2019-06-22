@@ -8,6 +8,8 @@
     <title>首页</title>
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="//at.alicdn.com/t/font_1195729_nl3l86sr7mq.css">
+    <link rel="stylesheet" href="./swiper-4.5.0/dist/css/swiper.min.css">
+    <script src="./swiper-4.5.0/dist/js/swiper.min.js"></script>
 </head>
 <body>
 <header>
@@ -16,10 +18,30 @@
     <p></p>
 </header>
 <div class="search">
-    <span>太原  ﹀</span>
-    <a href=""></a>
+    <span><a href="address.html">太原  ﹀</a></span>
+    <a href="search.html"></a>
 </div>
-<div class="banner"><img src="./image/banner.png" alt=""></div>
+<div class="banner swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="./image/banner.png" alt=""></div>
+        <div class="swiper-slide"><img src="./image/banner.png" alt=""></div>
+        <div class="swiper-slide"><img src="./image/banner.png" alt=""></div>
+    </div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-pagination"></div>
+</div>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    });
+</script>
 <ul class="category">
     <li><a href="list.html">
         <div><img src="./image/l1.png" alt=""></div>
